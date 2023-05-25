@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #494886;
+    color: rgb(142, 129, 129);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110vw;
+    height: 110vh;
+  }
+  .title {
+    color: rgb(8, 3, 3);
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .temperature-convert {
+    background: #eccbcb;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 35px 35px 25px;
+    min-width: 325px;
+    width: 100%;
+    
+  }
+  .output {
+    text-align: center;
+    margin: 21px 0;
+  }
+  .output-heading {
+    color: rgb(66, 65, 65);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .celsi-value {
+    border-bottom: 2px solid rgb(203, 191, 191);
+    padding: 9px;
+  }
+  label {
+    color: rgb(83, 76, 76);
+    font-size: 0.9rem;
+    margin-bottom: 7px;
+  }
+  input,
+  select {
+    background: transparent;
+    border-bottom: 2px solid rgb(210, 197, 197);
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+  }
+  input:focus {
+    border: 2px solid #1a17db;
+  }
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  option {
+    background-color: #3c39e7;
+    color: #f6f6f6;
+  }
+  #convert-btn {
+    background: linear-gradient(to bottom, #3633f3, #120fb9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #4a47e7, #322fda);
+  }
